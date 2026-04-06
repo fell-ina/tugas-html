@@ -1,0 +1,78 @@
+.tokyo-foto img
+{
+    max-width: 100%; /* Foto tidak akan melebihi lebar kolom */
+    height: auto;    /* Menjaga proporsi asli agar tidak penyok */
+    display: block;
+    height: 400px;
+    width: 5000px;
+    
+}
+.miaw{
+    color: rgb(224, 224, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: navy;
+}
+
+.tokyo-desk{
+    color: rgb(250, 250, 250);
+    font-family: japanese, sans-serif;
+    font-size: 25px;
+    background-color:darkslateblue;
+}
+.no-1 {
+    font-size: 200px;
+    size: 350px;
+}
+.judul-1{
+    font-size: 80px;
+
+}
+.fuji-foto img
+{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 800px;   
+}
+
+.no-2{
+    font-size: 200px;
+    size: 350px;
+}
+.judul-2{
+    font-size: 80px;
+}
+.fuji-desk{
+    color: rgb(255, 255, 255);
+    font-family: japanese, sans-serif;
+    font-size: 25px;
+    background-color: darkslateblue;
+}
+.no-3{
+    font-size: 200px;
+    size: 350px;
+}
+.judul-3{
+    font-size: 80px;
+
+}
+.sky-tower{
+    font-size: 25px;
+    font-family: japanese, sans-serif;
+    color: rgb(248, 243, 243);
+    background-color: darkslateblue;
+}
+.video-skytree{
+width: 100%;
+max-width: 400px;
+height: auto;
+display: block;
+border-radius: 8px;    
+}
+.sky-tree{
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 55px;
+}

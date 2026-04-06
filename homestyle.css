@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron:wght@400;700&display=swap');
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Meiryo", sans-serif;
+    background-color: #000000; /* Latar belakang putih bersih */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-container{
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    width: 90%;
+    max-width: 1000px;
+    border: 6px solid black;
+    box-shadow: 0 10px 30px rgb(19, 71, 191);
+    max-height: 500px;
+    max-width: 1000px;
+    align-items: center;
+    position: relative;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+
+}
+.background-japanese{
+    width: 100%;
+    display: block;
+    filter: brightness(0.6);
+}
+
+.video-container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    width: 80%;
+    margin: 0;
+    pointer-events: none; /* Agar teks tidak mengganggu interaksi dengan video */
+    text-shadow: 0 0 10px rgba(255, 0, 85, 0.8);
+    animation: riseup 2s ease-out forwards;
+}
+
+@keyframes riseup {
+    0% {
+        opacity: 0;
+        top: 80%; 
+    }
+    100% {
+        opacity: 1;
+        top: 50%;
+    }
+}
+
+.welcome-tittle{
+color: #38b1e9;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+   font-family: "Meiryo", sans-serif;
+}
+.teks{
+    color: rgb(190, 23, 185);
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Meiryo", sans-serif;
+}
+.deskripsi-evan{
+    color: rgb(223, 216, 20);
+    font-size: 30px;
+    margin-top: 0px;
+
+}
+.gold-line{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 7px;
+    margin: 5px;
+    width: 100%;
+}

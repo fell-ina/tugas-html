@@ -1,2 +1,3 @@
 # tugas-html
-ini adalah tugas html saya yang berkenlanjutan yang saya deploy agar lebih mudah di akses oleh guru dan tidak memenuhi google drive saya yang sudah mau penuh
+ini adalah tugas html saya yang berkenlanjutan yang saya deploy agar lebih mudah di akses oleh guru dan tidak memenuhi google drive saya yang sudah mau penuh, jadi kalo mau liat web saya lewat sini saja ya bu.
+
